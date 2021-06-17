@@ -12,16 +12,22 @@
 git clone https://github.com/ufec/TDR
 ```
 
-重命名环境配置文件
-
-```shell
-copy .\.env.example .env
-```
-
 安装依赖
 
 ```shell
 composer install
+```
+
+以上两步可以简化为一步
+
+```shell
+composer create-project ufec/tdr
+```
+
+重命名环境配置文件
+
+```shell
+copy .\.env.example .env
 ```
 
 ### 安装程序
