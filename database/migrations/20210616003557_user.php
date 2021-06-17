@@ -36,7 +36,7 @@ class User extends Migrator
             ->addColumn('avatar_url', 'string', ['comment' => "头像地址", 'default' => 'https://my-static.ufec.cn/other/avatar.webp'])
             ->addColumn('nick_name', 'string', ['comment' => "姓名"])
             ->addColumn('last_login_time', 'string', ['comment' => "最后登录时间", 'null' => true])
-            ->addColumn('last_login_ip', 'string', ['comment' => "最后登录IP", 'null' => true])
+            ->addColumn('last_login_ip', 'integer', ['comment' => "最后登录IP", 'null' => true])
             ->addColumn('add_time', 'string', ['comment' => "创建时间"])
             ->addColumn('status', 'integer', ['limit'=>MysqlAdapter::INT_TINY, 'comment' => "用户状态", 'default' => 1])
             ->addIndex('username', ['unique'=>true])
