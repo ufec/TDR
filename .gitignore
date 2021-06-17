@@ -1,0 +1,17 @@
+# Develop Folders
+/.idea
+/.vscode
+
+# Other Folders
+/vendor
+/runtime/
+
+# Log File
+*.log
+
+# Other File
+/install/lock.ini
+/.env
+/composer.lock
+/config/jwt.php
+/config/daily.php
