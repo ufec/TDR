@@ -4,6 +4,25 @@
 [网页端请移步至此](https://github.com/ufec/TDR-WEB)
 [小程序端请移步至此](https://github.com/ufec/TDR-uniapp)
 
+## 系统简介
+
+- ThinkPHP 6.0.x
+- 前后端分离设计
+- 多用户权限管理
+- 菜单管理
+- 接口鉴权
+- ......
+
+学校需要对现有教师日报系统升级改造，于是便有了此项目，主要改写了界面，但保留了原有基本布局，优化了教师填写体验
+
+部分代码参照其他开源项目而来，取之于人，用之与众！
+
+感谢 `thans/tp-jwt-auth` 这个项目封装好的中间件 `jwt` ，简化了不少操作
+
+很多地方在刚开始设计的时候没想完善，导致写的时候增加了不少负担！！！
+
+慢慢完善吧！
+
 ## 安装
 
 获取源代码
@@ -129,3 +148,4 @@ DEFAULT_LANG = zh-cn
 
 - 感谢开源框架 [ThinkPHP V6.0.*](https://packagist.org/packages/topthink/think)，提供简单易用的`PHP`框架
 - 感谢 `GVP` 开源项目 [ApiAdmin](https://gitee.com/apiadmin/ApiAdmin)，部分写法参照此项目实现
+- `thans/tp-jwt-auth` 提供的 `jwt` 支持
