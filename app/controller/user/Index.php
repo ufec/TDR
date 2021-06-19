@@ -17,10 +17,10 @@ use think\Response;
 class Index extends Base
 {
     /**
-     * 修改用户昵称
+     * 修改用户信息
      * @return Response
      */
-    public function changeUserName(): Response
+    public function changeUserInfo(): Response
     {
         $param = request()->param();
         try {
